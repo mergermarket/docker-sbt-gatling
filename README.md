@@ -4,7 +4,7 @@
 Example dockerfile: 
 
 ```
-FROM mergermarket:sbt-gatling
+FROM mergermarket:docker-sbt-gatling
 
 WORKDIR /usr/src/app/
 

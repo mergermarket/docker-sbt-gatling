@@ -6,6 +6,8 @@ Example dockerfile:
 ```
 FROM mergermarket:sbt-gatling
 
+WORKDIR /usr/src/app/
+
 ADD ./project ./project
 ADD ./src ./src
 ADD ./build.sbt .
